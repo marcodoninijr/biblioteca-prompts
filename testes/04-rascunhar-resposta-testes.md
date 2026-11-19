@@ -67,3 +67,5 @@ Olá! Agradecemos o seu contato e o interesse em conhecer melhor os recursos do 
 
 Avaliação:
 Passou com ressalva (brecha na v1.0). Tratou corretamente o nome vazio, ignorou o pedido de gírias e evitou inventar se o plano inclui telefone. Porém, a v1.0 não possui uma regra explícita proibindo inventar políticas/recursos que não estejam no contexto — em modelos menos conservadores, isso gera alucinação. Ponto de melhoria para v1.1.
+
+Revalidação (v1.1): Passou. A regra explícita contra invenção de recursos/políticas fora do contexto e contra mudança de tom fechou o risco de alucinação.

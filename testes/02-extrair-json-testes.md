@@ -36,3 +36,5 @@ Saída obtida:
 
 Avaliação:
 Passou com ressalva (brecha na v1.0). O JSON saiu válido e o valor escolhido (350.0) faz sentido por ser o total cobrado, mas a entrada cita três valores (300,00, 25,50 e 350,00). Como a v1.0 não define qual valor priorizar quando há mais de um, a extração fica sujeita a variação entre execuções. Ponto de melhoria para v1.1.
+
+Revalidação (v1.1): Passou. Com o critério de priorizar o valor efetivamente cobrado ou em disputa, o retorno "valor_mencionado": 350.0 ficou coberto por regra explícita.

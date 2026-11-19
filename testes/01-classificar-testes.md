@@ -37,3 +37,5 @@ Saída obtida:
 
 Avaliação: 
 Passou com ressalva (brecha na v1.0). O modelo ignorou o pedido de explicação detalhada e respeitou o formato fixo, mas a mensagem contém simultaneamente causa técnica (SUPORTE_TECNICO) e pedido de cancelamento (CANCELAMENTO). Como o prompt v1.0 não define uma ordem de precedência para conflitos, outra execução poderia retornar SUPORTE_TECNICO | ALTA. Ponto de melhoria para v1.1.
+
+Revalidação (v1.1): Passou. Com a regra de precedência (CANCELAMENTO > FINANCEIRO > SUPORTE_TECNICO > DUVIDA_GERAL), a saída Área/Escopo: CANCELAMENTO | Severidade: ALTA passou a ser determinística e não depende mais de interpretação do modelo.
